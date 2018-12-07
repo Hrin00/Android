@@ -297,8 +297,8 @@ public class Main extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_add) {
-            recyclerViewAdapter.addData(list.size());
-            return true;
+            Intent intent = new Intent(Main.this, Add.class);
+            startActivity(intent);
         } else if (id == R.id.action_remove) {
             if(list.size() == 0)
                 Toast.makeText(this,"列表为空，无法删除！",Toast.LENGTH_SHORT).show();
@@ -316,13 +316,15 @@ public class Main extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
+        if (id == R.id.nav_setting) {
+            Intent intent = new Intent(Main.this, Setting.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_about_us) {
 
         }
 
@@ -497,6 +499,5 @@ public class Main extends AppCompatActivity
     }
 
 }
-
 
 

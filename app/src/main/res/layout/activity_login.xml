@@ -56,6 +56,8 @@
         android:layout_gravity="center_horizontal"
         android:text="还没有账户？创建一个吧" />
 
+
+
 </LinearLayout>
 
 

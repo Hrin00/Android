@@ -13,15 +13,20 @@
             android:name=".Login"
             android:label="登陆">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Main"
             android:label="记账"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add"
+            android:label="记一笔" />
+        <activity android:name=".Setting"
+            android:label="设置" />
     </application>
 
 </manifest>
