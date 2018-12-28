@@ -8,19 +8,19 @@
         android:layout_height="wrap_content">
 
         <RelativeLayout
-            android:id="@+id/add_viewpage_1"
+            android:id="@+id/add_viewpage_9"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/add_viewpage_img_1"
+                android:id="@+id/add_viewpage_img_9"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:src="@mipmap/ic_launcher_round" />
 
             <TextView
-                android:id="@+id/add_viewpage_text_1"
+                android:id="@+id/add_viewpage_text_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
@@ -30,20 +30,20 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/add_viewpage_2"
+            android:id="@+id/add_viewpage_10"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="80dp">
 
             <ImageView
-                android:id="@+id/add_viewpage_img_2"
+                android:id="@+id/add_viewpage_img_10"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:src="@mipmap/ic_launcher_round" />
 
             <TextView
-                android:id="@+id/add_viewpage_text_2"
+                android:id="@+id/add_viewpage_text_10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"

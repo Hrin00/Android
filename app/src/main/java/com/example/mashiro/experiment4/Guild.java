@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.example.mashiro.experiment4.DataBase.MyDatabaseHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,6 +47,10 @@ public class Guild extends AppCompatActivity implements ViewPager.OnPageChangeLi
 
         initViewPager();
         initPoint();
+
+        //Database
+        MyDatabaseHelper myDatabaseHelper = new MyDatabaseHelper(this,"YiJi.db",null,1);
+        myDatabaseHelper.getWritableDatabase();
     }
 
     private void initPoint() {

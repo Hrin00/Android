@@ -108,9 +108,32 @@
         android:layout_marginTop="100dp">
 
         <RelativeLayout
-            android:id="@+id/add_viewpage_6"
+            android:id="@+id/add_viewpage_5"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/add_viewpage_img_5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/add_viewpage_text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="70dp"
+                android:text="文化教育" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/add_viewpage_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="80dp">
 
             <ImageView
                 android:id="@+id/add_viewpage_img_6"
@@ -125,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="70dp"
-                android:text="文化教育" />
+                android:text="健康医疗" />
 
         </RelativeLayout>
 
@@ -133,7 +156,7 @@
             android:id="@+id/add_viewpage_7"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="80dp">
+            android:layout_marginLeft="160dp">
 
             <ImageView
                 android:id="@+id/add_viewpage_img_7"
@@ -148,7 +171,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="70dp"
-                android:text="健康医疗" />
+                android:text="投资支出" />
 
         </RelativeLayout>
 
@@ -156,7 +179,7 @@
             android:id="@+id/add_viewpage_8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="160dp">
+            android:layout_marginLeft="240dp">
 
             <ImageView
                 android:id="@+id/add_viewpage_img_8"
@@ -167,29 +190,6 @@
 
             <TextView
                 android:id="@+id/add_viewpage_text_8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
-                android:layout_marginTop="70dp"
-                android:text="投资支出" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/add_viewpage_9"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="240dp">
-
-            <ImageView
-                android:id="@+id/add_viewpage_img_9"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:src="@mipmap/ic_launcher_round" />
-
-            <TextView
-                android:id="@+id/add_viewpage_text_9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
